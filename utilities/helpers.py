@@ -10,3 +10,6 @@ def map_offers_details(offer_details):
         "conversion_rate": conversion_rate,
         "stock": stock,
     }
+
+def test_me():
+    print("I'm Tested!")
