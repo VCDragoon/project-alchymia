@@ -10,8 +10,6 @@ from utilities.variables import poe_pubStashUrl
 from utilities.helpers import test_me, map_offers_details
 import utilities
 
-
-
 r = requests.get(poe_pubStashUrl)
 stashes = r.json()
 nextPageId = stashes["next_change_id"]

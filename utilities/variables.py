@@ -1,4 +1,3 @@
-
 # API URLs
 poe_pubStashUrl = "http://www.pathofexile.com/api/public-stash-tabs?id="
 
