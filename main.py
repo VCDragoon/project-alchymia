@@ -7,6 +7,7 @@ import math
 import time
 from datetime import datetime
 import PySimpleGUI as sg
+import pandas as pd 
 
 from gui.main_UI_page import load_main_UI
 from utilities.variables import poe_pubStashUrl

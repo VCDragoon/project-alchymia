@@ -3,6 +3,8 @@ import yaml
 
 from utilities.helpers import load_config
 from gui.bar_graph import bar_graph
+from gui.pandas_table_UI import table_example
+from gui.scatterplot import scatterplot
 
 def load_main_UI():
     # Load configuration from config/config.yaml
@@ -43,7 +45,9 @@ def load_main_UI():
         # Column layout
         col = [[sg.Button('Pub Stash Stream', pad=((5, 0), (5, 5)))],
             [sg.Button('Flipping Utilities', pad=((5, 0), (5, 5)))],
-            [sg.Button('Data Science', pad=((5, 0), (5, 5)))]]
+            [sg.Button('Data Science', pad=((5, 0), (5, 5)))],
+            [sg.Button('Raw Data', pad=((5, 0), (5, 5)))],
+            [sg.Button('Scatterplot', pad=((5, 0), (5, 5)))]]
 
         # The tab 1, 2, 3 layouts - what goes inside the tab
         tab1_layout = [[sg.Menu(menu_def, tearoff=False, pad=(200, 1))],
@@ -87,10 +91,14 @@ def load_main_UI():
                 sg.popup('About this program', 'Project Alchymia', 'Version 0.0.4',
                         'Made by Chaz Vollmer and Brandon Harris',  grab_anywhere=True)
                 window.reappear()
+            elif event == 'Raw Data':
+                table_example()
             elif event == 'Data Science':
                 bar_graph()
             elif event == 'Configuration':
                 config_window()
+            elif event == 'Scatterplot':
+                scatterplot()
 
         window.close()
 
