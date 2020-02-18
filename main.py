@@ -19,7 +19,7 @@ cfg = load_config()
 # Import configured variables
 poe_pubStashUrl = cfg['URLs']['poe_pubStashUrl']
 
-sg.ChangeLookAndFeel('DarkBlue4')
+sg.ChangeLookAndFeel(cfg['UI']['theme'])
 
 # Import base UI Canvas
 load_main_UI()
