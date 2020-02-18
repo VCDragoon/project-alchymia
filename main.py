@@ -8,6 +8,7 @@ import time
 from datetime import datetime
 import PySimpleGUI as sg
 
+from gui.main_UI_page import load_main_UI
 from utilities.variables import poe_pubStashUrl
 from utilities.helpers import test_me, map_offers_details, load_config
 import utilities
@@ -20,14 +21,8 @@ poe_pubStashUrl = cfg['URLs']['poe_pubStashUrl']
 
 sg.ChangeLookAndFeel('DarkBlue4')
 
-# Edit/View Configuration
-layout = []
-for k, v in cfg["URLs"].items():
-    layout += [sg.Text(f'{k}'), sg.In(f'{v}', key=v)],
-layout += [[sg.Button('Save'), sg.Button('Exit')]]
-
-window = sg.Window('Alchymia Configuration', layout)
-event, values = window.read()
+# Import base UI Canvas
+load_main_UI()
 
 
 # r = requests.get(poe_pubStashUrl)
