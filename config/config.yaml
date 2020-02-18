@@ -6,3 +6,6 @@ URLs:
     poe_searchFetchUrl: "https://www.pathofexile.com/api/trade/fetch/" # note - this expects IDs & a query with 'exchange' at the end
 
 testParam: 'brandon has left the building'
+
+UI:
+    theme: 'DarAmber'

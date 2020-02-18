@@ -8,9 +8,14 @@ def load_main_UI():
 
     def config_window():
         cfg = load_config()
+        
         # Edit/View Configuration
+
+
         layout = []
         for k, v in cfg["URLs"].items():
+            layout += [sg.Text(f'{k}'), sg.In(f'{v}', key=v)],
+        for k, v in cfg["UI"].items():
             layout += [sg.Text(f'{k}'), sg.In(f'{v}', key=v)],
         layout += [[sg.Button('Save'), sg.Button('Exit')]]
 
@@ -34,17 +39,40 @@ def load_main_UI():
         right_click_menu = ['Unused', ['Right', '!&Click', '&Menu', 'E&xit', 'Configuration']]
 
         # ------ GUI Defintion ------ #
-        layout = [
-            [sg.Menu(menu_def, tearoff=False, pad=(200, 1))],
-            [sg.Text('Try out File -> Configuration!\n\nThe canvas below shows outputs, but can be expanded with loads of cool stuff.')],
-            [sg.Output(size=(60, 20))],
-        ]
+        # Column layout
+        col = [[sg.Text('col Row 1')],
+            [sg.Text('col Row 2'), sg.Input('col input 1')],
+            [sg.Text('col Row 3'), sg.Input('col input 2')]]
+
+        # The tab 1, 2, 3 layouts - what goes inside the tab
+        tab1_layout = [[sg.Menu(menu_def, tearoff=False, pad=(200, 1))],
+            [sg.Text('Try out File -> Configuration!\n\nThe canvas below shows outputs, but can be expanded with loads of cool stuff.'),
+            sg.Col(col)],
+            [sg.Output(size=(60, 20))],]
+
+        tab2_layout = [[sg.Text('Tab 2')]]
+        tab3_layout = [[sg.Text('Tab 3')]]
+        tab4_layout = [[sg.Text('Tab 3')]]
+
+# The TabgGroup layout - it must contain only Tabs
+        tab_group_layout = [[sg.Tab('Tab 1', tab1_layout, font='Courier 15', key='-TAB1-'),
+                     sg.Tab('Tab 2', tab2_layout, key='-TAB2-'),
+                     sg.Tab('Tab 3', tab3_layout, key='-TAB3-'),
+                     sg.Tab('Tab 4', tab4_layout, key='-TAB4-'),
+                     ]]
+
+        # Window layout
+        layout = [[sg.TabGroup(tab_group_layout,
+                       enable_events=True,
+                       key='-TABGROUP-')]]
 
         window = sg.Window("Project Alchymia",
                         layout,
                         default_element_size=(12, 1),
                         default_button_element_size=(12, 1),
                         right_click_menu=right_click_menu)
+
+        tab_keys = ('-TAB1-','-TAB2-','-TAB3-', '-TAB4-')
 
         # ------ Loop & Process button menu choices ------ #
         while True:
