@@ -1,5 +1,6 @@
 #TODO change over to class structure instead
 #TODO add not just for map, but for all kinds of stuff (currency, cards, etc.)
+import yaml
 
 def map_offers_details(offer_details):
     contact_ign = offer_details["listing"]["account"]["lastCharacterName"]
@@ -16,3 +17,10 @@ def map_offers_details(offer_details):
 
 def test_me():
     print("I'm Tested!")
+
+# Loads configuration YAML file from local reference to config.yaml
+def load_config():
+    with open("config/config.yaml", 'r') as ymlfile:
+        cfg = yaml.load(ymlfile)
+    return cfg
+
