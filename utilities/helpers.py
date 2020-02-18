@@ -1,3 +1,6 @@
+#TODO change over to class structure instead
+#TODO add not just for map, but for all kinds of stuff (currency, cards, etc.)
+
 def map_offers_details(offer_details):
     contact_ign = offer_details["listing"]["account"]["lastCharacterName"]
     stock = offer_details["listing"]["price"]["item"]["stock"]
