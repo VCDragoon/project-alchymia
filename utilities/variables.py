@@ -7,3 +7,4 @@ poe_exchangeFetchUrl = "http://www.pathofexile.com/api/trade/fetch/" # note - th
 
 poe_searchBaseUrl = "https://www.pathofexile.com/api/trade/search/" # note - requires a league name at the end
 poe_searchFetchUrl = "https://www.pathofexile.com/api/trade/fetch/" # note - this expects IDs & a query with 'exchange' at the end
+#hi
