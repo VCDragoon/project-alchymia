@@ -2,6 +2,7 @@ import PySimpleGUI as sg
 import yaml
 
 from utilities.helpers import load_config
+from gui.bar_graph import bar_graph
 
 def load_main_UI():
     # Load configuration from config/config.yaml
@@ -18,7 +19,7 @@ def load_main_UI():
         for k, v in cfg["UI"].items():
             layout += [sg.Text(f'{k}'), sg.In(f'{v}', key=v)],
         layout += [[sg.Button('Save'), sg.Button('Exit')]]
-
+    
         window = sg.Window('Alchymia Configuration', layout)
         event, values = window.read()
         window.close()
@@ -40,15 +41,15 @@ def load_main_UI():
 
         # ------ GUI Defintion ------ #
         # Column layout
-        col = [[sg.Text('col Row 1')],
-            [sg.Text('col Row 2'), sg.Input('col input 1')],
-            [sg.Text('col Row 3'), sg.Input('col input 2')]]
+        col = [[sg.Button('Pub Stash Stream', pad=((5, 0), (5, 5)))],
+            [sg.Button('Flipping Utilities', pad=((5, 0), (5, 5)))],
+            [sg.Button('Data Science', pad=((5, 0), (5, 5)))]]
 
         # The tab 1, 2, 3 layouts - what goes inside the tab
         tab1_layout = [[sg.Menu(menu_def, tearoff=False, pad=(200, 1))],
-            [sg.Text('Try out File -> Configuration!\n\nThe canvas below shows outputs, but can be expanded with loads of cool stuff.'),
-            sg.Col(col)],
-            [sg.Output(size=(60, 20))],]
+            [sg.Text('Try out File -> Configuration!'),],
+            [sg.Output(size=(60, 20)), 
+            sg.Col(col)],]
 
         tab2_layout = [[sg.Text('Tab 2')]]
         tab3_layout = [[sg.Text('Tab 3')]]
@@ -86,9 +87,8 @@ def load_main_UI():
                 sg.popup('About this program', 'Project Alchymia', 'Version 0.0.4',
                         'Made by Chaz Vollmer and Brandon Harris',  grab_anywhere=True)
                 window.reappear()
-            elif event == 'Open':
-                filename = sg.popup_get_file('file to open', no_window=True)
-                print(filename)
+            elif event == 'Data Science':
+                bar_graph()
             elif event == 'Configuration':
                 config_window()
 
