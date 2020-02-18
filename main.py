@@ -16,4 +16,11 @@ nextPageId = stashes["next_change_id"]
 stashIds = [nextPageId + ".0"]
 stashDict = {nextPageId: stashes["stashes"]}
 
-test_me()
+for page in range(1, 10):
+    
+    r = requests.get(poe_pubStashUrl + nextPageId)
+    stashes = r.json()    
+    
+    nextPageId = stashes["next_change_id"]
+    stashIds.append(nextPageId + "." + str(page))
+    stashDict[nextPageId] = stashes["stashes"]
