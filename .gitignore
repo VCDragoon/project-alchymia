@@ -4,3 +4,9 @@
 .vscode/launch.json
 .vscode/extensions.json
 *.code-workspace
+*__pycache__
+*__py
+
+__pycache__/
+*.py[cod]
+*$py.class
