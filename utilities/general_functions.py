@@ -12,8 +12,6 @@ def timestamp_string() -> str:
     print("{}.txt".format(timestamp_str))
     return "{}.txt".format(timestamp_str)
 
-
-
 # Takes a string, removes any whitespace, and returns the result
 def trim_whitespace(x):
     try:
@@ -30,3 +28,4 @@ def remove_punctuation(x):
     except:
         pass
     return x
+

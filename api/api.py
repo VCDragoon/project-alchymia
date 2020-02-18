@@ -5,7 +5,7 @@ import urllib
 import aiohttp
 from asyncio_throttle import Throttler
 import nest_asyncio
-
+from utilities.helpers import map_offers_details
 nest_asyncio.apply()
 
 class RateLimitException(Exception):
@@ -80,15 +80,3 @@ async def fetch_offers_for_pair(sess, throttler, league, want, have, item_list, 
             
         return {"trading": have+"->"+want, "offers": offers}
 
-def map_offers_details(offer_details):
-    contact_ign = offer_details["listing"]["account"]["lastCharacterName"]
-    stock = offer_details["listing"]["price"]["item"]["stock"]
-    receive = offer_details["listing"]["price"]["item"]["amount"]
-    pay = offer_details["listing"]["price"]["exchange"]["amount"]
-    conversion_rate = round(receive / pay, 4)
-
-    return {
-        "contact_ign": contact_ign,
-        "conversion_rate": conversion_rate,
-        "stock": stock,
-    }
