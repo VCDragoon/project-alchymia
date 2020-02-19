@@ -1,34 +1,20 @@
 import PySimpleGUI as sg
 import yaml
 
-from utilities.helpers import load_config
-from gui.bar_graph import bar_graph
-from gui.pandas_table_UI import table_example
-from gui.scatterplot import scatterplot
+from ui.bar_graph import bar_graph
+from ui.pandas_table_UI import table_example
+from ui.scatterplot import scatterplot
+from ui.config_ui import config_ui
 
 def load_main_UI():
     # Load configuration from config/config.yaml
 
     def config_window():
-        cfg = load_config()
-        
-        # Edit/View Configuration
-
-
-        layout = []
-        for k, v in cfg["URLs"].items():
-            layout += [sg.Text(f'{k}'), sg.In(f'{v}', key=v)],
-        for k, v in cfg["UI"].items():
-            layout += [sg.Text(f'{k}'), sg.In(f'{v}', key=v)],
-        layout += [[sg.Button('Save'), sg.Button('Exit')]]
-    
-        window = sg.Window('Alchymia Configuration', layout)
-        event, values = window.read()
-        window.close()
-
+    # Edit/View Configuration
+        config_ui()
 
     def test_menus():
-
+    #TODO remove test menus eventually
         
         sg.set_options(element_padding=(0, 0))
 

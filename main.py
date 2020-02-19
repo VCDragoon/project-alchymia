@@ -9,7 +9,7 @@ from datetime import datetime
 import PySimpleGUI as sg
 import pandas as pd 
 
-from gui.main_UI_page import load_main_UI
+from ui.main_UI_page import load_main_UI
 from utilities.variables import poe_pubStashUrl
 from utilities.helpers import test_me, map_offers_details, load_config
 import utilities
