@@ -1,6 +1,8 @@
 import csv
 import requests
 import abc
+import PySimpleGUI as sg
+league = 'Metamorph'
 
 
 # noinspection PyBroadException
@@ -42,7 +44,7 @@ class APIAgent(abc.ABC):
 
     def save_data(self):
         """Saves self.data as a csv file."""
-        with open('out.csv', 'w', newline='') as f:
+        with open('analytics/div_flipper/out.csv', 'w', newline='') as f:
             wtr = csv.writer(f)
             wtr.writerow(self._data[0].keys())
             for dic in self._data:
@@ -55,7 +57,7 @@ class APIAgent(abc.ABC):
     def _api(cls, func, params):
         """Accesses the API (dependent on the instantiating subclass) with function FUNC and parameters
         PARAMS, returning the JSON value."""
-
+        
         print('calling', func, params, 'to', cls._api_url)
         result = requests.get(cls._api_url + func, params=params)
         try:
@@ -128,7 +130,7 @@ class APIAgent(abc.ABC):
 class WatchAPIAgent(APIAgent):
     _mean_name = 'mean'
     _api_url = 'http://api.poe.watch/'
-    _id_file = 'watch_item_ids.csv'
+    _id_file = 'analytics/div_flipper/watch_item_ids.csv'
     _id_dict: dict = APIAgent._load_id_dict(_id_file)
     _supported_cards = _id_dict.keys()
 
@@ -146,7 +148,7 @@ class WatchAPIAgent(APIAgent):
 class NinjaAPIAgent(APIAgent):
     _mean_name = 'chaosValue'
     _api_url = 'https://poe.ninja/api/Data/'
-    _id_file = 'ninja_item_ids.csv'
+    _id_file = 'analytics/div_flipper/ninja_item_ids.csv'
     _id_dict: dict = APIAgent._load_id_dict(_id_file)
     _supported_cards = _id_dict.keys()
 
@@ -155,11 +157,15 @@ class NinjaAPIAgent(APIAgent):
         return super()._api(func, params)['lines']
 
     def _fetch_all_data(self):
-        with open('ninja_itemoverview_types.csv', 'r', newline='') as f:
+        with open('analytics/div_flipper/ninja_itemoverview_types.csv', 'r', newline='') as f:
             reader = csv.reader(f, delimiter=',')
             types = [item for sublist in reader for item in sublist]
         all_data = []
+        i = 1
         for func in types:
+            print(func)
+            sg.OneLineProgressMeter('Div Card Analysis', i, len(types),  'key', 'Running various divination card lookups and calculations.')
+            i = i+1
             all_data.extend(self._api('itemoverview', {'league': self._league, 'type': func}))
         # TODO: Implement support for currencies and fragments (different format) here
         all_data.sort(key=lambda dic: dic['id'])
@@ -167,3 +173,12 @@ class NinjaAPIAgent(APIAgent):
 
     def _fetch_div_data(self):
         return self._api('itemoverview?league=Metamorph&type=DivinationCard', {'league': self._league})
+
+def run_flipper():
+    #agent = APIAgent.WatchAPIAgent(league)
+    agent = NinjaAPIAgent(league)
+    # agent.filter_price()
+
+    agent.calculate_profit()
+    agent.save_data()
+    sg.OneLineProgressMeterCancel('key')

@@ -48,7 +48,7 @@ def scatterplot():
 
         event, values = window.read(timeout=10)
         if event in ('Exit', None):
-            exit(69)
+            break
         slider_elem.update(i)       # slider shows "progress" through the data points
         ax.cla()                    # clear the subplot
         ax.grid()                   # draw the grid
