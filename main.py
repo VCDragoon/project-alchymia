@@ -16,11 +16,9 @@ import utilities
 
 # Load configuration from config/config.yaml
 cfg = load_config()
-
 # Import configured variables
-poe_pubStashUrl = cfg['URLs']['poe_pubStashUrl']
 
-sg.ChangeLookAndFeel(cfg['UI']['theme'])
+sg.ChangeLookAndFeel(cfg['theme'])
 
 # Import base UI Canvas
 load_main_UI()
