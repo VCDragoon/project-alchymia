@@ -1,0 +1,291 @@
+<currencyitem>{Mirror of Kalandra}
+<uniqueitem>{Headhunter}
+<uniqueitem>{Headhunter}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}
+<uniqueitem>{Headhunter}\n<corrupted>{Corrupted}
+<prophecy>{Queen's Sacrifice}
+<uniqueitem>{Bottled Faith}
+<divination>{House of Mirrors}
+<divination>{The Doctor}
+<currencyitem>{10x Exalted Orb}
+<uniqueitem>{Watcher's Eye}
+<uniqueitem>{Farrul's Fur}
+<rareitem>{Bone Helmet}\n<default>{Item Level:} <normal>{100}\n<default>{Elder Item}
+<prophecy>{Trash to Treasure}
+<prophecy>{Fated Connections}
+<gemitem>{Level 4 Empower}\n<corrupted>{Corrupted}
+<currencyitem>{Mirror Shard}
+<uniqueitem>{Skin of the Loyal}\n<size:26>{<default>{Item Level:} <normal>{25}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}}
+<currencyitem>{3x Exalted Orb}
+<uniqueitem>{Starforge}
+<gemitem>{Level 4 Enlighten}\n<corrupted>{Corrupted}
+<uniqueitem>{Berek's Respite}
+<uniqueitem>{Soul Ripper}
+<uniqueitem>{Astramentis}
+<uniqueitem>{The Taming}
+<uniqueitem>{Atziri's Acuity}
+<magicitem>{Overpowering Opal Ring}\n<default>{Item Level:} <normal>{100}\n<default>{Elder Item}
+<normal>{Pure Chayula Breachstone}
+<currencyitem>{2x Exalted Orb}
+<gemitem>{Level 3 Enlighten}
+<uniqueitem>{Rigwald's Quills}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}
+<whiteitem>{Six-Link Astral Plate}
+<uniqueitem>{Seven-League Step}
+<uniqueitem>{Soul Taker}
+<uniqueitem>{Xoph's Blood}\n<corrupted>{Corrupted}
+<uniqueitem>{Kaom's Heart}\n<corrupted>{Corrupted}
+<whiteitem>{Six-Link Coronal Maul}\n<default>{Item Level:} <normal>{83}
+<uniqueitem>{The Perandus Manor}
+<whiteitem>{Opal Ring}\n<default>{Item Level:} <normal>{100}\n<default>{Shaper Item}
+<normal>{Pure Breachstone}
+ <uniqueitem>{Perandus Manor}\n<corrupted>{Corrupted}
+<uniqueitem>{Unending Hunger}
+<magicitem>{Elreon's Jewellery}\n<default>{Item Level:} <normal>{85}
+<uniqueitem>{Nemesis Item}\n<corrupted>{Corrupted}
+<currencyitem>{Exalted Orb}
+<uniqueitem>{Prismatic Jewel}\n<corrupted>{Corrupted}
+<uniqueitem>{Precursor's Emblem}\n<corrupted>{Corrupted}
+<currencyitem>{10x Divine Orb}
+<uniqueitem>{Nemesis Item}
+<currencyitem>{5x Chaos Orb}
+<uniqueitem>{Shavronne's Wrappings}
+<uniqueitem>{Rigwald's Quills}
+<uniqueitem>{The Beachhead}\n<default>{Map Tier:} <normal>{15}\n<corrupted>{Corrupted}
+<rareitem>{Bone Helmet}\n<default>{Elder Item}
+<uniqueitem>{Eyes of the Greatwolf}
+<uniqueitem>{Maligaro's Virtuosity}
+<whiteitem>{Six-Link Vaal Regalia}
+<uniqueitem>{The Putrid Cloister}
+<uniqueitem>{Zerphi's Heart}
+<prophecy>{Fated Unique Item}
+<uniqueitem>{Helmet}\n<size:28>{<enchanted>{Eternal Labyrinth Enchantment}}
+<uniqueitem>{Charan's Sword}
+<whiteitem>{Six-Link Harbinger Bow}\n<default>{Item Level:} <normal>{91}
+<currencyitem>{10x Stacked Deck}
+<gemitem>{Level 4 Enhance}\n<corrupted>{Corrupted}
+<uniqueitem>{Ventor's Gamble}
+<gemitem>{Level 21 Golem Gem}\n<corrupted>{Corrupted}
+<whiteitem>{Six-Link Sacrificial Garb}\n<default>{Item Level:} <normal>{100}
+<gemitem>{Level 21 Trap Gem}\n<default>{Quality:} <augmented>{+23%}\n<corrupted>{Corrupted}
+<uniqueitem>{Kaom's Heart}
+<size:31>{<gemitem>{Superior Support Gem}\n<default>{Quality:} <augmented>{+23%}\n<corrupted>{Corrupted}}
+<uniqueitem>{Two-Stone Ring}
+<uniqueitem>{Voll's Devotion}\n<corrupted>{Corrupted}
+<currencyitem>{10x Cartographer's Chisel}
+<whiteitem>{Six-Link Body Armour}\n<default>{Item Level:} <normal>{100}
+<divination>{Divination Card}
+<uniqueitem>{Kaom's Roots}\n<corrupted>{Corrupted}
+<uniqueitem>{Song of the Sirens}
+<gemitem>{Superior Vaal Gem}\n<default>{Quality:} <augmented>{+20%}\n<corrupted>{Corrupted}
+<currencyitem>{5x Breachstone Splinter}
+<uniqueitem>{Breach Item}
+<uniqueitem>{Chayula Item}
+<rareitem>{Item}\n<default>{Item Level:} <normal>{100}\n<default>{Elder Item}
+<rareitem>{Jewellery}\n<default>{Item Level:} <normal>{100}\n<default>{Shaper Item}
+<uniqueitem>{Bestiary Item}
+<gemitem>{Level 21 Aura Gem}\n<corrupted>{Corrupted}
+<uniqueitem>{Voidforge}
+<currencyitem>{17x Chromatic Orb}
+<rareitem>{Fishing Rod}\n<corrupted>{Two-Implicit}\n<corrupted>{Corrupted}
+<gemitem>{Level 21 Vaal Summon Skeletons}\n<corrupted>{Corrupted}
+<prophecy>{A Master Seeks Help (Niko)}
+<uniqueitem>{Fishing Item}
+<whiteitem>{Albino Rhoa Feather}
+<prophecy>{The Jeweller's Touch}
+<magicitem>{Merciless Vaal Axe}\n<default>{Item Level:} <normal>{100}\n<default>{Elder Item}
+<whiteitem>{Six-Link Short Bow}\n<default>{Item Level:} <normal>{50}
+<whiteitem>{Map}
+<normal>{Map}\n<default>{Map Tier:} <normal>{5}
+<whiteitem>{Sacrifice Fragment}
+<currencyitem>{3x Orb of Fusing}
+<uniqueitem>{Mjölner}\n<corrupted>{Corrupted}
+<whiteitem>{Six-Link Staff}\n<default>{Item Level:} <normal>{55}
+<uniqueitem>{Map}\n<corrupted>{Corrupted}
+<currencyitem>{Gemcutter's Prism}
+<whiteitem>{Map}\n<default>{Map Tier:} <normal>{14}
+<currencyitem>{10x Gemcutter's Prism}
+<uniqueitem>{League-Specific Item}
+<uniqueitem>{Belt}
+<rareitem>{Vaal Temple Map}\n<default>{Item Level:} <normal>{83}\n<corrupted>{Corrupted}
+<rareitem>{Map}\n<default>{Map Tier:} <normal>{16}\n<corrupted>{Unidentified Corrupted}
+<currencyitem>{3x Essence}
+<currencyitem>{40x Orb of Regret}
+<uniqueitem>{Item}\n <corrupted>{Two-Implicit}\n <corrupted>{Corrupted}
+<prophecy>{The King's Path}
+<currencyitem>{3x Orb of Annulment}
+<whiteitem>{Sulphite Scarab}
+<prophecy>{Ancient Doom}
+<gemitem>{Level 1 Summon Skeletons}\n<default>{Quality:} <augmented>{+23%}\n<corrupted>{Corrupted}
+<prophecy>{A Master Seeks Help}
+<uniqueitem>{Skin of the Lords}\n<corrupted>{Corrupted}
+<currencyitem>{10x Master Cartographer's Sextant}
+<currencyitem>{Vaal Orb}
+<whiteitem>{Six-Link Holy Chainmail}\n<default>{Item Level:} <normal>{60}
+<currencyitem>{3x Chaos Orb}
+<currencyitem>{Chaos Orb}
+<currencyitem>{20x Orb of Chance}
+<uniqueitem>{Rigwald's Curse}
+<uniqueitem>{Hyaon's Fury}
+<uniqueitem>{Voltaxic Rift}\n<corrupted>{Corrupted}
+<uniqueitem>{Dagger}
+<uniqueitem>{Doryani's Fist}\n<corrupted>{Corrupted}
+<uniqueitem>{Ring}\n<corrupted>{Corrupted}
+<currencyitem>{5x Regal Orb}
+<uniqueitem>{Mon'tregul's Grasp}
+<uniqueitem>{Granite Flask}
+<currencyitem>{5x Currency}
+<gemitem>{Superior Gem}\n<default>{Quality:} <augmented>{+20%}
+<gemitem>{Level 20 Support Gem}
+<uniqueitem>{Gold Ring}
+<uniqueitem>{Prismatic Ring}\n<corrupted>{Corrupted}
+<uniqueitem>{Ring}
+<uniqueitem>{Tabula Rasa}
+<uniqueitem>{Bow}
+<uniqueitem>{Item}
+<whiteitem>{Mortal Hope}
+<whiteitem>{Map}\n<default>{Map Tier:} <normal>{15}
+<currencyitem>{20x Orb of Fusing}
+<uniqueitem>{Agate Amulet}\n<corrupted>{Corrupted}
+<size:31>{<magicitem>{Merciless Two-Hand Weapon}\n<default>{Item Level:} <normal>{100}}
+<whiteitem>{Strand Map}\n<default>{Item Level:} <normal>{73}
+<uniqueitem>{Rat's Nest}
+<uniqueitem>{Mao Kun}
+<magicitem>{Vivid Jewel}
+<uniqueitem>{Shavronne Item}
+<whiteitem>{Colosseum Map}
+<uniqueitem>{Axe}
+<uniqueitem>{Body Armour}
+<uniqueitem>{Beyond Item}
+<magicitem>{Life Armour}
+<gemitem>{Level 21 Spell Gem}\n<corrupted>{Corrupted}
+<uniqueitem>{Doryani's Fist}
+<uniqueitem>{Death's Hand}
+<gemitem>{Superior Mirror Arrow}\n<default>{Quality:} <augmented>{+20%}
+<uniqueitem>{Coruscating Elixir}
+<uniqueitem>{Divination Distillate}
+<magicitem>{Vivid Crimson Jewel}
+<rareitem>{Map}\n<corrupted>{Corrupted}
+<uniqueitem>{Romira's Banquet}\n<corrupted>{Corrupted}
+<uniqueitem>{Drillneck}\n<corrupted>{Corrupted}
+<whiteitem>{Five-Link Staff}\n<default>{Item Level:} <normal>{66}
+<uniqueitem>{Varunastra}
+<gemitem>{Level 20 Gem}
+<uniqueitem>{Sword}\n<corrupted>{Corrupted}
+<uniqueitem>{Nightmare Bascinet}
+<uniqueitem>{The Harvest}
+<uniqueitem>{Taste of Hate}
+<magicitem>{Seraphim's Armour}
+<currencyitem>{10x Vaal Orb}
+<size:31>{<magicitem>{Merciless One-Hand Weapon}\n<default>{Item Level:} <normal>{100}}
+<uniqueitem>{Atziri's Disfavour}
+<uniqueitem>{Lioneye Item}
+<magicitem>{Ring of Bameth}\n<default>{Item Level:} <normal>{83}
+<uniqueitem>{Shield}\n<corrupted>{Corrupted}
+<uniqueitem>{Death's Oath}
+<uniqueitem>{Le Heup of All}\n<corrupted>{Corrupted}
+<uniqueitem>{Alpha's Howl}
+<uniqueitem>{Pledge of Hands}
+<uniqueitem>{Unset Ring}
+<uniqueitem>{Blood of Corruption}\n<corrupted>{Corrupted}
+<magicitem>{Malicious Gemini Claw}\n<default>{Item Level:} <normal>{83}
+<magicitem>{Runic One-Hand Weapon}\n<default>{Item Level:} <normal>{100}
+<uniqueitem>{Carcass Jack}
+<currencyitem>{40x Scroll of Wisdom}
+<magicitem>{Unassailable Amulet}
+<uniqueitem>{The Whispering Ice}\n<corrupted>{Corrupted}
+<magicitem>{Dictator's Prophecy Wand}\n<default>{Item Level:} <normal>{100}
+<uniqueitem>{Agnerod Staff}
+<gemitem>{Superior Minion Gem}\n<default>{Quality:} <augmented>{+20%}
+<uniqueitem>{Rise of the Phoenix}
+<magicitem>{Surgeon's Flask}
+<currencyitem>{7x Orb of Alchemy}
+<uniqueitem>{Shavronne's Revelation}\n<corrupted>{Corrupted}
+<uniqueitem>{Staff}
+<uniqueitem>{Wand}\n<corrupted>{Corrupted}
+<rareitem>{Map}\n<default>{Map Tier:} <normal>{15}\n<corrupted>{Corrupted}
+<magicitem>{Gemini Claw of Celebration}\n<default>{Item Level:} <normal>{83}
+<magicitem>{Merciless Weapon}\n<default>{Item Level:} <normal>{100}
+<uniqueitem>{Lioneye's Vision}
+<uniqueitem>{Windripper}
+<uniqueitem>{Rigwald Item}
+<currencyitem>{10x Chaos Orb}
+<uniqueitem>{Voltaxic Rift}
+<uniqueitem>{Vaults of Atziri}\n<corrupted>{Corrupted}
+<uniqueitem>{Pacifism}\n<corrupted>{Corrupted}
+<currencyitem>{10x Orb of Regret}
+<uniqueitem>{Gloves}
+<prophecy>{Monstrous Treasure}
+<rareitem>{Tier 1 Talisman}\n<corrupted>{Corrupted}
+<uniqueitem>{Claw}\n<corrupted>{Corrupted}
+<uniqueitem>{Jewel}
+<uniqueitem>{Rustic Sash}
+<uniqueitem>{Umbilicus Immortalis}
+<uniqueitem>{Weapon}\n<corrupted>{Corrupted}
+<rareitem>{Ring}\n<default>{Item Level:} <normal>{100}
+<uniqueitem>{Meginord's Girdle}\n<corrupted>{Corrupted}
+<currencyitem>{30x Orb of Scouring}
+<uniqueitem>{Jewel}\n<corrupted>{Corrupted}
+<gemitem>{Superior Portal}
+<normal>{Breachstone}
+<uniqueitem>{Belt of the Deceiver}\n<corrupted>{Corrupted}
+<uniqueitem>{The Harvest}\n<corrupted>{Corrupted}
+<uniqueitem>{Balefire}\n<corrupted>{Corrupted}
+<uniqueitem>{Bloodbond}
+<uniqueitem>{Belly of the Beast}
+<uniqueitem>{Daresso's Salute}
+<uniqueitem>{Bisco's Collar}
+<uniqueitem>{Lightpoacher}
+<uniqueitem>{Poorjoy's Asylum}
+<uniqueitem>{Atziri Item}
+<uniqueitem>{Severed in Sleep}\n<corrupted>{Corrupted}
+<currencyitem>{9x Shrieking Essence}
+<uniqueitem>{The Twilight Temple}
+<currencyitem>{3x Deafening Essence}
+<currencyitem>{20x Quality Currency}
+<uniqueitem>{The Poet's Pen}
+<whiteitem>{Mortal Fragment}
+<uniqueitem>{Delve Item}
+<magicitem>{Sceptre of Celebration}\n<default>{Shaper Item}
+<currencyitem>{Harbinger's Orb}
+<uniqueitem>{Harbinger Fragment}
+<currencyitem>{10x Sextants}
+<magicitem>{Flaring Eclipse Staff}\n<default>{Item Level:} <normal>{100}
+<whiteitem>{Offering to the Goddess}
+<uniqueitem>{Tabula Rasa}\n<corrupted>{Corrupted}
+<uniqueitem>{Gluttony}
+<whiteitem>{Six-Link Imperial Bow}\n<default>{Item Level:} <normal>{100}
+<uniqueitem>{Fidelitas' Spike}\n <corrupted>{Two-Implicit}\n <corrupted>{Corrupted}
+<uniqueitem>{Tidebreaker}
+<currencyitem>{Orb of Annulment}
+<uniqueitem>{Jewel}\n<magicitem>{Primordial}
+<magicitem>{Glyphic Prophecy Wand}\n<default>{Item Level:} <normal>{100}
+<magicitem>{Jewel of Potency}
+<uniqueitem>{Vaults of Atziri}
+<whiteitem>{Cartography Scarab}
+<whiteitem>{Gilded Scarab}
+<whiteitem>{Scarab}
+<whiteitem>{Six-Link Body Armour}
+<uniqueitem>{Doedre Item}
+<uniqueitem>{Crystal Sceptre}
+<uniqueitem>{Crown of Eyes}
+<uniqueitem>{Lightning Coil}
+<uniqueitem>{Wake of Destruction}
+<rareitem>{Two-Stone Ring}
+<uniqueitem>{Chin Sol}
+<size:31>{<magicitem>{Bloodthirsty Eternal Sword}\n<default>{Item Level:} <normal>{66}}
+<uniqueitem>{Lifesprig}
+<uniqueitem>{Midnight Bargain}\n<corrupted>{Corrupted}
+<magicitem>{Perandus' Gold Ring}
+<uniqueitem>{Fertile Mind}
+<rareitem>{Body Armour}\n<default>{Item Level:} <normal>{100}
+<gemitem>{Summon Raging Spirit}\n<default>{Quality:} <augmented>{+20%}
+<uniqueitem>{The Whispering Ice}
+<rareitem>{Jewellery}\n<default>{Item Level:} <normal>{79}
+<uniqueitem>{Sire of Shards}
+<whiteitem>{Prismatic Ring}
+<rareitem>{Amulet}\n<corrupted>{Corrupted}
+<magicitem>{Weapon of Crafting}
+<uniqueitem>{Storm Cloud}
+<uniqueitem>{Trypanon}
+<magicitem>{Electrocuting Jewellery}\n<default>{Item Level:} <normal>{76}
+<uniqueitem>{Kiara's Determination}
+<uniqueitem>{Obliteration}

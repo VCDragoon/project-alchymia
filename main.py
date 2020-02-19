@@ -16,8 +16,19 @@ import utilities
 
 # Load configuration from config/config.yaml
 cfg = load_config()
-# Import configured variables
 
+# ---------------- !!!!!!!!!!!!!! ---------------- #
+# ----------------   TEST  ZONE   ---------------- #
+# ---------------- !!!!!!!!!!!!!! ---------------- #
+
+
+# ---------------- !!!!!!!!!!!!!! ---------------- #
+# ----------------   TEST  ZONE   ---------------- #
+# ---------------- !!!!!!!!!!!!!! ---------------- #
+
+
+
+# Load relevant variables from config
 sg.ChangeLookAndFeel(cfg['theme'])
 
 # Import base UI Canvas
