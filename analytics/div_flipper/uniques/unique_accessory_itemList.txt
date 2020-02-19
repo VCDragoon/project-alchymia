@@ -1,0 +1,163 @@
+Headhunter,607
+Badge of the Brotherhood,22499
+The Pandemonius,2019
+The Halcyon,1961
+Putembo's Mountain,7760
+Precursor's Emblem,7599
+Uzaza's Valley,7738
+Solstice Vigil,18948
+Xoph's Blood,1993
+Coward's Legacy,6950
+Ryslatha's Coil,2078
+Astramentis,113
+Xoph's Heart,1959
+The Taming,1628
+Berek's Respite,155
+Voll's Devotion,1809
+Ahkeli's Meadow,7761
+Presence of Chayula,2018
+Uzaza's Mountain,7620
+Impresence,4758
+Astral Projector,25000
+Zerphi's Heart,7070
+Mark of the Shaper,4883
+Aul's Uprising,7709
+Kaom's Way,709
+Mother's Embrace,24994
+The Effigon,4885
+Putembo's Meadow,7628
+Yoke of Suffering,2311
+Mark of the Elder,4870
+Circle of Guilt,23099
+Circle of Nostalgia,23103
+Putembo's Valley,7523
+Circle of Anguish,23098
+The Retch,1588
+The Pariah,1564
+The Tactician,4853
+The Nomad,4865
+Ascent From Flesh,98
+Choir of the Storm,1994
+The Primordial Chain,7378
+Circle of Regret,23097
+Circle of Fear,23100
+Bisco's Collar,2077
+Bisco's Leash,2080
+The Ascetic,1422
+Ahkeli's Valley,7626
+Karui Charge,710
+Ventor's Gamble,1770
+Thief's Torment,1685
+Uzaza's Meadow,7531
+Le Heup of All,741
+Berek's Grip,153
+Warrior's Legacy,24537
+Andvarius,65
+Call of the Brotherhood,216
+Eye of Chayula,507
+Eye of Innocence,508
+Perandus Signet,925
+Gloomfang,2300
+Cyclopean Coil,2314
+Ahkeli's Mountain,7521
+Fury Valve,24966
+Essence Worm,497
+Valako's Sign,1763
+Timetwist,4922
+Coward's Chains,6906
+Tavukai,21576
+Shavronne's Revelation,1265
+Voice of the Storm,1965
+Daresso's Salute,349
+Feastbind,520
+Snakepit,1326
+Soul Tether,2189
+Vivinsect,19071
+Hyrri's Truth,20733
+Venopuncture,22419
+Atziri's Foible,123
+Berek's Pass,154
+Faminebind,517
+Gifts from Above,569
+Ngamahu Tiki,864
+Voidheart,1798
+Doryani's Invitation,1916
+Auxium,2094
+The Flow Untethered,2229
+Winterweave,4872
+Sacrificial Heart,6894
+Mark of Submission,7361
+Icefang Orbit,22444
+Leash of Oblation,24989
+Rigwald's Crest,1058
+Belt of the Deceiver,152
+Blackheart,166
+Brinerot Mark,199
+Carnage Heart,227
+Death Rush,391
+Doedre's Damning,426
+Dream Fragments,445
+Dyadian Dawn,460
+Hinekora's Sight,631
+Karui Ward,711
+Kikazaru,713
+Lori's Lantern,766
+Malachai's Artifice,774
+Marylene's Fallacy,795
+Meginord's Girdle,807
+Ming's Heart,819
+Mutewind Seal,845
+Ngamahu's Sign,865
+Perandus Blazon,923
+Praxis,965
+Prismweave,976
+Pyre,984
+Redblade Band,1035
+Romira's Banquet,1067
+Sibyl's Lament,1303
+Tasalio's Sign,1393
+The Warden's Brand,1661
+Umbilicus Immortalis,1728
+Victario's Acuity,1776
+Voideye,1797
+Winterheart,1890
+Perseverance,1983
+Second Piece of Time,2225
+First Piece of Time,2226
+The Hungry Loop,2312
+Darkness Enthroned,2319
+Stormfire,4886
+Gluttony,5973
+Hyperboreus,19058
+Siegebreaker,22287
+The Jinxed Juju,22414
+Willowgift,25192
+The Aylardex,1424
+Kaom's Sign,708
+Bloodgrip,2179
+Mokou's Embrace,822
+Timeclasp,1695
+Emberwake,479
+Valyrium,1764
+Heartbound Loop,610
+Rashkaldor's Patience,1013
+Maligaro's Cruelty,2190
+Bloodboil,176
+The Ignomon,1528
+Perquil's Toe,7373
+The Magnate,1551
+Extractor Mentis,506
+Bated Breath,139
+Immortal Flesh,660
+Maligaro's Restraint,782
+Shaper's Seed,1259
+Sidhebreath,1304
+Stone of Lazhwar,1367
+Sunblast,1381
+Tear of Purity,1395
+The Anvil,1418
+Ungil's Harmony,1747
+Warped Timepiece,1839
+Wurm's Molt,1895
+Soulthirst,1336
+Araku Tiki,76

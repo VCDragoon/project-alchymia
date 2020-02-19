@@ -21,6 +21,9 @@ def test_me():
 # Loads configuration YAML file from local reference to config.yaml
 def load_config():
     with open("config/config.yaml", 'r') as ymlfile:
-        cfg = yaml.load(ymlfile)
-    return cfg
+        try:
+            cfg = yaml.safe_load(ymlfile)
+            return cfg
+        except yaml.YAMLError as exc:
+            print(exc)
 

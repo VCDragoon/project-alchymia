@@ -1,0 +1,292 @@
+636,House of Mirrors
+1476,The Doctor
+22522,The Demon
+1496,The Fiend
+7437,Beauty Through Death
+23958,Succor of the Sinless
+1529,The Immortal
+18978,The Nurse
+21575,Alluring Bounty
+6908,The Samurai's Eye
+21582,Pride of the First Ones
+22406,Nook's Crown
+4927,The Iron Bard
+6942,Immortal Resolve
+1479,The Dragon's Heart
+20760,Seven Years Bad Luck
+22454,The Price of Loyalty
+11,Abandoned Wealth
+4915,The World Eater
+1850,Wealth and Power
+2045,The Spark and the Flame
+22460,The Damned
+2035,The Polymath
+649,Hunter's Reward
+1579,The Queen
+22476,Void of the Elements
+22512,The Eye of Terror
+2042,The Saint's Treasure
+1487,The Enlightened
+24167,Etched in Blood
+1457,The Celestial Justicar
+23831,The Escape
+1615,The Soul
+21548,Burning Blood
+971,Pride Before the Fall
+1663,The Warlord
+6963,The Mayor
+6966,The Celestial Stone
+22448,The Bargain
+23816,Squandered Prosperity
+23911,The Craving
+4911,Blessing of God
+6951,The Undaunted
+1524,The Hoarder
+22463,Azyran's Reward
+22502,Remembrance
+1603,The Sephirot
+1651,The Valkyrie
+257,Chaotic Disposition
+1559,The Offering
+2041,The Wolven King's Bite
+20767,The Landing
+21577,Dark Dreams
+799,Mawr Blaidd
+1431,The Betrayal
+1488,The Ethereal
+6916,The Professor
+20845,The Life Thief
+22441,Akil's Prophecy
+23238,Divine Justice
+2595,Rebirth
+188,Bowyer's Dream
+771,Lucky Deck
+1421,The Artist
+1589,The Risk
+6937,The Rite of Elements
+19014,The Sacrifice
+23900,Deathly Designs
+1539,The King's Heart
+422,Dialla's Subjugation
+620,Heterochromia
+1445,The Brittle Emperor
+1451,The Cartographer
+1471,The Dapper Prodigy
+1507,The Gambler
+1635,The Throne
+1653,The Vast
+1658,The Void
+1803,Volatile Power
+4867,The Puzzle
+4900,The Breach
+4916,The Dreamer
+6915,The Hale Heart
+6920,Perfection
+7383,Boon of the First Ones
+7387,The Wilted Rose
+7393,The Endless Darkness
+22411,The Heroic Shot
+22552,The Old Man
+23245,The Bones
+23246,Friendship
+23675,Baited Expectations
+24681,The Fishmonger
+6902,The Jeweller's Boon
+6981,The Undisputed
+2047,The Porcupine
+186,Boundless Realms
+229,Cartographer's Delight
+618,Her Mask
+769,Loyalty
+1423,The Avenger
+1472,The Dark Mage
+1485,The Encroaching Darkness
+1508,The Gemcutter
+1625,The Surveyor
+1650,The Union
+1696,Time-Lost Relic
+2038,The Wretched
+2039,Lingering Remnants
+2475,Left to Fate
+6901,Three Voices
+7382,The Innocent
+20668,Arrogance of the Vaal
+20716,The Mad King
+20804,The Seeker
+21570,Buried Treasure
+22350,Vile Power
+22439,The Skeleton
+22480,The Side Quest
+23251,The Chosen
+23985,Underground Forest
+1453,The Catalyst
+480,Emperor of Purity
+1691,Three Faces in the Dark
+1006,Rain of Chaos
+21567,The Fool
+1468,The Cursed King
+1677,The Wolf's Shadow
+57,Anarchy's Price
+111,Assassin's Favour
+131,Audacity
+170,Blind Venture
+320,Coveted Possession
+389,Death
+468,Earth Drinker
+482,Emperor's Luck
+556,Gemcutter's Promise
+568,Gift of the Gemling Queen
+572,Glimmer of Hope
+634,Hope
+644,Hubris
+645,Humility
+648,Hunter's Resolve
+686,Jack in the Box
+736,Last Hope
+768,Lost Worlds
+770,Lucky Connections
+772,Lysah's Respite
+809,Merciless Armament
+1008,Rain Tempter
+1015,Rats
+1083,Scholar of the Seas
+1261,Shard of Fate
+1412,The Aesthete
+1420,The Arena Champion
+1425,The Battle Born
+1439,The Body
+1449,The Calling
+1450,The Carrion Crow
+1452,The Cataclysm
+1460,The Conduit
+1475,The Demoness
+1477,The Doppelganger
+1478,The Dragon
+1482,The Drunken Aristocrat
+1486,The Endurance
+1489,The Explorer
+1490,The Feast
+1498,The Fletcher
+1499,The Flora's Gift
+1503,The Formless Sea
+1506,The Fox
+1509,The Gentleman
+1510,The Gladiator
+1522,The Harvester
+1526,The Hunger
+1531,The Inoculated
+1533,The Inventor
+1534,The Jester
+1542,The Last One Standing
+1545,The Lion
+1546,The Lord in Black
+1552,The Mercenary
+1558,The Oath
+1560,The One With All
+1562,The Pack Leader
+1563,The Pact
+1565,The Penitent
+1574,The Poet
+1581,The Rabid Rhoa
+1590,The Road to Power
+1592,The Scavenger
+1593,The Scholar
+1606,The Sigil
+1612,The Siren
+1617,The Spoiled Prince
+1619,The Stormcaller
+1621,The Summoner
+1622,The Sun
+1624,The Surgeon
+1626,The Survivalist
+1633,The Thaumaturgist
+1636,The Tower
+1637,The Traitor
+1639,The Trial
+1640,The Twins
+1642,The Tyrant
+1657,The Visionary
+1675,The Wind
+1676,The Wolf
+1678,The Wrath
+1709,Tranquillity
+1712,Treasure Hunter
+1725,Turn the Other Cheek
+1786,Vinia's Token
+2034,Mitts
+2036,The Valley of Steel Boxes
+2037,Call to the First Ones
+2043,The Wolverine
+2044,The Garish Power
+2046,The Standoff
+2048,The Forsaken
+2087,Atziri's Arsenal
+2088,The Opulent
+2291,The Ruthless Ceinture
+2292,No Traces
+2309,The Eye of the Dragon
+2317,The Realm
+4860,The Obscured
+4864,The Deceiver
+4874,The Insatiable
+4887,Forbidden Power
+6913,The Army of Blood
+6917,The Beast
+6921,The Sword King's Salute
+6926,The Master
+6929,The Fathomless Depths
+6939,The Dreamland
+6948,The Admirer
+6956,The Darkest Dream
+6997,Harmony of Souls
+7386,The Twilight Moon
+7403,The Cacophony
+18952,The Master Artisan
+18957,A Dab of Ink
+20628,Sambodhi's Vow
+20734,Alone in the Darkness
+20739,The Lord of Celebration
+20777,The Journey
+20786,The Messenger
+20787,Monochrome
+20793,The Golden Era
+20798,Boon of Justice
+21498,Vanity
+21538,Thirst for Knowledge
+21539,Imperial Legacy
+21556,Echoes of Love
+21558,The Deep Ones
+21569,Demigod's Wager
+21571,The Primordial
+21645,The Archmage's Right Hand
+22436,The Mountain
+22452,The Wolf's Legacy
+22467,The Deal
+22510,More is Never Enough
+23237,Cameria's Cut
+1458,The Chains that Bind
+428,Doedre's Madness
+744,Light and Truth
+1668,The Watcher
+2040,The Coming Storm
+1591,The Scarred Meadow
+735,Lantador's Lost Love
+2288,The Blazing Fire
+1538,The King's Blade
+1523,The Hermit
+1544,The Lich
+982,Prosperity
+6,A Mother's Parting Gift
+420,Destined to Crumble
+588,Grave Knowledge
+1530,The Incantation
+1549,The Lover
+1550,The Lunaris Priestess
+1553,The Metalsmith's Gift
+1660,The Warden
+1671,The Web
+1694,Thunderous Skies
+2083,Might is Right
+2091,Struck by Lightning
+6953,The Witch
+20762,Dark Temptation

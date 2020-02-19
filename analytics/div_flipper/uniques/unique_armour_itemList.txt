@@ -1,0 +1,357 @@
+Demigod's Beacon,21263
+Demigod's Dominance,408
+Atziri's Reflection,4974
+The Eternity Shroud,20957
+Tabula Rasa,1388
+Farrul's Fur,4972
+Maloney's Mechanism,21050
+Atziri's Splendour,1926
+Atziri's Acuity,119
+Sporeguard,22574
+Saqawal's Nest,4910
+Victario's Influence,1779
+Yriel's Fostering,4760
+The Queen's Hunger,19097
+The Perfect Form,1996
+The Rat Cage,1582
+Cloak of Defiance,279
+The Brass Dome,1441
+Asenath's Gentle Touch,99
+Geofri's Sanctuary,560
+Hyrri's Ire,652
+Kintsugi,719
+Craiceann's Carapace,4933
+Rotting Legion,22421
+Belly of the Beast,149
+Inpulsa's Broken Heart,2289
+Fenumus' Shroud,4928
+The Ivory Tower,24813
+Shavronne's Wrappings,1266
+Voll's Protector,1810
+Cloak of Tawm'r Isley,285
+Carcass Jack,223
+Daresso's Defiance,345
+Loreweave,5048
+Machina Mitts,22492
+Mask of the Stitched Demon,6952
+The Coming Calamity,2199
+Garb of the Ephemeral,23106
+Incandescent Heart,662
+Voidfletcher,4857
+Death's Door,392
+Soul Mantle,1331
+Gruthkul's Pelt,2079
+Queen of the Forest,992
+Lioneye's Vision,760
+Tombfist,4764
+Cherrubim's Maleficence,263
+Crown of the Tyrant,7735
+Omeyocan,6954
+The Surrender,2006
+The Iron Fortress,7606
+The Anticipation,1976
+Vis Mortis,1790
+Seven-League Step,1111
+Apep's Supremacy,6991
+Rigwald's Quills,1060
+Tinkerskin,2195
+Cospri's Will,308
+Iron Heart,2294
+Whakatutuki o Matua,19056
+Slavedriver's Hand,6955
+Mask of the Spirit Drinker,6905
+Asenath's Chant,4851
+Bronn's Lithe,207
+Death's Oath,397
+Greed's Embrace,595
+Shroud of the Lightless,4770
+Doryani's Delusion,7585
+The Unshattered Will,2234
+The Beast Fur Shawl,1426
+Wildwrap,4914
+Windshriek,4869
+Hands of the High Templar,25289
+Dendrobate,2196
+Hyrri's Demise,4897
+Kaom's Heart,703
+Maligaro's Virtuosity,783
+The Covenant,1463
+Memory Vault,2298
+Doedre's Malevolence,4930
+Fenumus' Weave,4942
+Chains of Command,5975
+Doedre's Skin,2321
+Bubonic Trail,4766
+Skin of the Loyal,1988
+Lightning Coil,748
+Fox's Fortune,4890
+The Tempest's Binding,2238
+Wall of Brambles,1834
+Bloodbond,2260
+Light of Lunaris,1967
+Crystal Vault,4881
+Ambu's Charge,48
+The Snowblind Grace,1966
+Shaper's Touch,1260
+Skyforth,1319
+Dialla's Malefaction,2249
+Frostferno,4884
+Geofri's Legacy,7514
+Command of the Pit,7576
+The Restless Ward,1585
+Briskwrap,201
+Kingsguard,716
+Infernal Mantle,669
+The Signal Fire,1608
+Hrimburn,637
+Null and Void,869
+Solaris Lorica,1328
+Magna Eclipsis,2503
+Icetomb,656
+Foxshade,542
+Zahndethus' Cassock,1902
+Ashrend,107
+Thousand Ribbons,1687
+Bramblejack,192
+Cloak of Flame,282
+Goldwyrm,576
+Lightbane Raiment,745
+Abberath's Hooves,1971
+Indigon,4879
+The Devouring Diadem,19057
+The Red Trail,2017
+Aukuna's Will,21647
+Offering to the Serpent,23104
+The Oak,1557
+The Baron,2072
+Garukhan's Flight,2092
+Scold's Bridle,1084
+Inya's Epiphany,2186
+First Piece of Focus,2210
+Fourth Piece of Focus,2230
+Sunspite,4873
+Lioneye's Paws,758
+Third Piece of Focus,2222
+Aegis Aurora,27
+Deidbellow,406
+Devoto's Devotion,421
+Grip of the Council,598
+The Vertex,1654
+Viper's Scales,1787
+Lycosidae,1950
+Tukohama's Fortress,1981
+The Brine Crown,1991
+Second Piece of Focus,2207
+Malachai's Awakening,4905
+Fenumus' Spinnerets,4941
+Farrul's Bite,4944
+The Stampede,22561
+Mask of the Tribunal,23096
+The Fracturing Spinner,2233
+Sentari's Answer,1110
+Shackles of the Wretched,1118
+Prism Guardian,974
+Kaom's Roots,707
+Perepiteia,23101
+Volkuur's Guidance,4775
+Goldrim,575
+Leer Cast,742
+Ylfeban's Trickery,1900
+First Piece of Storms,2232
+Second Piece of Storms,2236
+Third Piece of Storms,2237
+Lightpoacher,4765
+Craiceann's Pincers,4934
+Fenumus' Toxins,4946
+Farrul's Pounce,4961
+Dance of the Offered,6898
+Unyielding Flame,6996
+March of the Legion,20758
+Southbound,1337
+Storm's Gift,23102
+Aurseize,132
+Fractal Thoughts,21533
+Cragfall,321
+Abyssus,17
+Alberon's Warpath,42
+Drillneck,447
+Lioneye's Remorse,759
+Rainbowstride,1009
+Shadows and Dust,1119
+Shavronne's Gambit,1263
+Sin Trek,1312
+Voidwalker,1802
+Winds of Change,1885
+Esh's Visage,2001
+The Formless Inferno,2009
+Haemophilia,2082
+Eber's Unification,2192
+Oskarm,2259
+Vix Lunaris,2295
+Blasphemer's Grasp,2301
+Craiceann's Chitin,4917
+Craiceann's Tracks,4935
+Farrul's Chase,4945
+Wreath of Phrecia,21489
+Maw of Conquest,21566
+Breathstealer,22595
+Obscurantis,881
+Apep's Slumber,6891
+Hale Negator,7588
+Alpha's Howl,46
+Atziri's Step,130
+Black Sun Crest,163
+Brinerot Flag,198
+Brinerot Whalers,200
+Broken Faith,206
+Crown of the Pale King,330
+Darkray Vectors,354
+Doedre's Scorn,429
+Doryani's Fist,442
+Empire's Grasp,486
+Ezomyte Hold,510
+Facebreaker,512
+Flesh and Spirit,533
+Great Old One's Ward,594
+Honourhome,633
+Hyrri's Bite,651
+Kaltensoul,702
+Lochtonial Caress,765
+Maloney's Nightfall,784
+Martyr's Crown,794
+Meginord's Vise,808
+Mind of the Council,815
+Mindspiral,816
+Mutewind Whispersteps,846
+Rathpith Globe,1014
+Rat's Nest,1016
+Rearguard,1030
+Redblade Tramplers,1037
+Sadima's Touch,1079
+Saffell's Frame,1081
+Soul Strike,1334
+Starkonja's Head,1363
+Steppan Eard,1366
+Sundance,1382
+The Bringer of Rain,1444
+The Gull,1517
+Thirst for Horrors,1686
+Thunderfist,1693
+Trolltimber Spire,1716
+Veruso's Battering Rams,1771
+Victario's Charity,1777
+Victario's Flight,1778
+Wanderlust,1837
+Windscream,1886
+Voll's Vision,1962
+The Formless Flame,1968
+The Infinite Pursuit,1969
+Esh's Mirror,1970
+The Embalmer,2193
+Allelopathy,2200
+First Piece of Directions,2208
+Second Piece of Directions,2224
+Third Piece of Directions,2228
+Malachai's Mark,2248
+Invictus Solaris,2286
+Leper's Alms,2299
+Duskblight,4856
+Greedtrap,4877
+Saqawal's Talons,4904
+Saqawal's Flock,4920
+Saqawal's Winds,4932
+Architect's Hand,6900
+Demon Stitcher,7385
+Thundersight,18964
+Galesight,18982
+Flamesight,19016
+Bitterbind Point,19055
+Vixen's Entrapment,20692
+Triad Grip,22344
+Cowl of the Ceraunophile,22573
+Cowl of the Thermophile,22627
+Cowl of the Cryophile,22665
+Crown of the Inward Eye,24448
+Mistwall,24986
+Painseeker,25040
+Eye of Malice,25117
+Manastorm,25350
+Heretic's Veil,619
+Hrimsorrow,643
+Mutewind Pennant,844
+Redblade Banner,1036
+Matua Tupuna,798
+Malachai's Loop,775
+Titucius' Span,1698
+Geofri's Crest,559
+Rime Gaze,1062
+Zeel's Amplifier,6936
+Chitus' Apex,270
+Vaal Caress,1751
+Surgebinders,1383
+Repentance,1047
+Speaker's Wreath,2188
+Asenath's Mark,100
+The Peregrine,1567
+Gorgon's Gaze,4888
+The Broken Crown,1446
+Ahn's Contempt,2282
+Worldcarver,18956
+Voidbringer,1796
+Snakebite,1325
+Bones of Ullr,185
+Skirmish,1317
+Asphyxia's Wrath,110
+Ahn's Heritage,2081
+The Blood Dance,1433
+Atziri's Mirror,124
+Blackgleam,165
+Chernobog's Pillar,262
+Craghead,322
+Crest of Perandus,328
+Crown of Eyes,329
+Daresso's Courage,344
+Deerstalker,403
+Deidbell,405
+Doedre's Tenure,430
+Gang's Momentum,554
+Glitterdisc,573
+Heatshiver,612
+Hrimnor's Resolve,642
+Jaws of Agony,688
+Kaltenhalt,701
+Kitava's Thirst,722
+Kongming's Stratagem,726
+Malachai's Simula,776
+Maligaro's Lens,781
+Nomic's Storm,867
+Rise of the Phoenix,1063
+Saemus' Gift,1080
+Shavronne's Pace,1264
+Skullhead,1318
+Slitherpinch,1320
+Springleaf,1352
+Veil of the Night,1769
+Wake of Destruction,1833
+Wheel of the Stormsail,1872
+Wondertrap,1894
+Wraithlord,2253
+Kalisa's Grace,2257
+Ralakesh's Impatience,2277
+Mark of the Red Covenant,4855
+The Eternal Apple,7359
+Curtain Call,7366
+Torchoak Step,22223
+Crown of Thorns,331
+Ezomyte Peak,511
+The Three Dragons,1634
+Dusktoe,458
+Ondar's Clasp,884
+Three-step Assault,1692
+Chalice of Horrors,252
+Fairgraves' Tricorne,515
+Wyrmsign,1896
+Thousand Teeth Temu,1690
+Giantsbane,2254
+Stormcharger,2261
+The Deep One's Hide,1474

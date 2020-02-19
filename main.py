@@ -7,8 +7,10 @@ import math
 import time
 from datetime import datetime
 import PySimpleGUI as sg
-# Winky
-from gui.main_UI_page import load_main_UI
+
+import pandas as pd 
+
+from ui.main_UI_page import load_main_UI
 from utilities.variables import poe_pubStashUrl
 from utilities.helpers import test_me, map_offers_details, load_config
 import utilities
@@ -16,10 +18,18 @@ import utilities
 # Load configuration from config/config.yaml
 cfg = load_config()
 
-# Import configured variables
-poe_pubStashUrl = cfg['URLs']['poe_pubStashUrl']
+# ---------------- !!!!!!!!!!!!!! ---------------- #
+# ----------------   TEST  ZONE   ---------------- #
+# ---------------- !!!!!!!!!!!!!! ---------------- #
 
-sg.ChangeLookAndFeel(cfg['UI']['theme'])
+# ---------------- !!!!!!!!!!!!!! ---------------- #
+# ----------------   TEST  ZONE   ---------------- #
+# ---------------- !!!!!!!!!!!!!! ---------------- #
+
+
+
+# Load relevant variables from config
+sg.ChangeLookAndFeel(cfg['theme'])
 
 # Import base UI Canvas
 load_main_UI()

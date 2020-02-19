@@ -1,40 +1,27 @@
 import PySimpleGUI as sg
 import yaml
 
-from utilities.helpers import load_config
-from gui.bar_graph import bar_graph
+from ui.bar_graph import bar_graph
+from ui.pandas_table_UI import table_example
+from ui.scatterplot import scatterplot
+from ui.config_ui import config_ui
+from ui.theme_browser import theme_list
+from analytics.div_flipper.calculations import run_flipper
 
 def load_main_UI():
     # Load configuration from config/config.yaml
 
     def config_window():
-        cfg = load_config()
-        
-        # Edit/View Configuration
-
-
-        layout = []
-        for k, v in cfg["URLs"].items():
-            layout += [sg.Text(f'{k}'), sg.In(f'{v}', key=v)],
-        for k, v in cfg["UI"].items():
-            layout += [sg.Text(f'{k}'), sg.In(f'{v}', key=v)],
-        layout += [[sg.Button('Save'), sg.Button('Exit')]]
-    
-        window = sg.Window('Alchymia Configuration', layout)
-        event, values = window.read()
-        window.close()
-
+    # Edit/View Configuration
+        config_ui()
 
     def test_menus():
-
+    #TODO remove test menus eventually
         
         sg.set_options(element_padding=(0, 0))
 
         # ------ Menu Definition ------ #
-        menu_def = [['&File', ['&Open     Ctrl-O', '&Save       Ctrl-S', '&Configuration', 'E&xit']],
-                    ['&Edit', ['&Paste', ['Special', 'Normal', ], 'Undo'], ],
-                    ['&Toolbar', ['---', 'Command &1', 'Command &2',
-                                '---', 'Command &3', 'Command &4']],
+        menu_def = [['&File', ['&Configuration', '&Preferences', 'E&xit']],
                     ['&Help', '&About...'], ]
 
         right_click_menu = ['Unused', ['Right', '!&Click', '&Menu', 'E&xit', 'Configuration']]
@@ -43,7 +30,9 @@ def load_main_UI():
         # Column layout
         col = [[sg.Button('Pub Stash Stream', pad=((5, 0), (5, 5)))],
             [sg.Button('Flipping Utilities', pad=((5, 0), (5, 5)))],
-            [sg.Button('Data Science', pad=((5, 0), (5, 5)))]]
+            [sg.Button('Data Science', pad=((5, 0), (5, 5)))],
+            [sg.Button('Raw Data', pad=((5, 0), (5, 5)))],
+            [sg.Button('Scatterplot', pad=((5, 0), (5, 5)))]]
 
         # The tab 1, 2, 3 layouts - what goes inside the tab
         tab1_layout = [[sg.Menu(menu_def, tearoff=False, pad=(200, 1))],
@@ -51,7 +40,9 @@ def load_main_UI():
             [sg.Output(size=(60, 20)), 
             sg.Col(col)],]
 
-        tab2_layout = [[sg.Text('Tab 2')]]
+        tab2_layout = [[sg.Menu(menu_def, tearoff=False, pad=(200, 1))],
+            [sg.Button('DivFlipper'), sg.Button('View Result')],
+            [sg.Output(size=(60, 20))]]
         tab3_layout = [[sg.Text('Tab 3')]]
         tab4_layout = [[sg.Text('Tab 3')]]
 
@@ -73,7 +64,7 @@ def load_main_UI():
                         default_button_element_size=(12, 1),
                         right_click_menu=right_click_menu)
 
-        tab_keys = ('-TAB1-','-TAB2-','-TAB3-', '-TAB4-')
+        #tab_keys = ('-TAB1-','-TAB2-','-TAB3-', '-TAB4-')
 
         # ------ Loop & Process button menu choices ------ #
         while True:
@@ -87,10 +78,20 @@ def load_main_UI():
                 sg.popup('About this program', 'Project Alchymia', 'Version 0.0.4',
                         'Made by Chaz Vollmer and Brandon Harris',  grab_anywhere=True)
                 window.reappear()
+            elif event == 'Raw Data':
+                table_example()
             elif event == 'Data Science':
                 bar_graph()
             elif event == 'Configuration':
                 config_window()
+            elif event == 'Scatterplot':
+                scatterplot()
+            elif event =='DivFlipper':
+                run_flipper()
+            elif event =='View Result':
+                table_example(request_input=False, filename="analytics/div_flipper/out.csv", headers=True)
+            elif event == 'Preferences':
+                theme_list()
 
         window.close()
 
