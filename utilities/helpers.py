@@ -2,6 +2,7 @@
 #TODO add not just for map, but for all kinds of stuff (currency, cards, etc.)
 import yaml
 import pandas as pd
+import numpy as np
 
 def map_offers_details(offer_details):
     contact_ign = offer_details["listing"]["account"]["lastCharacterName"]
