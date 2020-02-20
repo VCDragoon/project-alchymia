@@ -3,7 +3,7 @@ import requests
 import abc
 import PySimpleGUI as sg
 league = 'Metamorph'
-
+from utilities.general_functions import timestamp_string
 
 # noinspection PyBroadException
 class APIAgent(abc.ABC):
@@ -44,7 +44,8 @@ class APIAgent(abc.ABC):
 
     def save_data(self):
         """Saves self.data as a csv file."""
-        with open('analytics/div_flipper/out.csv', 'w', newline='') as f:
+        filename = 'data/div_flipper' + 'div-flipping-' + timestamp_string() + '.csv'
+        with open(filename, 'w', newline='') as f:
             wtr = csv.writer(f)
             wtr.writerow(self._data[0].keys())
             for dic in self._data:

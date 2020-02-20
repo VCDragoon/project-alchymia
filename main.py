@@ -16,7 +16,7 @@ from utilities.helpers import test_me, map_offers_details, load_config
 import utilities
 
 # Load configuration from config/config.yaml
-cfg = load_config()
+
 
 # ---------------- !!!!!!!!!!!!!! ---------------- #
 # ----------------   TEST  ZONE   ---------------- #
@@ -29,10 +29,15 @@ cfg = load_config()
 
 
 # Load relevant variables from config
-sg.ChangeLookAndFeel(cfg['theme'])
+
 
 # Import base UI Canvas
-load_main_UI()
+def start_alchymia():
+    cfg = load_config()
+    sg.ChangeLookAndFeel(cfg['theme'])
+    load_main_UI()
+
+start_alchymia()
 
 
 # r = requests.get(poe_pubStashUrl)

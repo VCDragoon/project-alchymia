@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 import yaml
-from utilities.helpers import load_config
+from utilities.helpers import load_config, save_config
 
 def config_ui():
     cfg = load_config()
@@ -19,8 +19,5 @@ def config_ui():
                 break
             # ------ Process save ------ #
             if event == 'Save':
-                cfg = values
-                with open('config/config.yaml', 'w') as outfile:
-                    yaml.dump(cfg, outfile)
-                print("CFG================",cfg)
+                save_config(values)
     window.close()
