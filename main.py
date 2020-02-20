@@ -35,9 +35,12 @@ import utilities
 def start_alchymia():
     cfg = load_config()
     sg.ChangeLookAndFeel(cfg['theme'])
-    load_main_UI()
+    if load_main_UI()=="restart":
+        start_alchymia()
 
 start_alchymia()
+
+
 
 
 # r = requests.get(poe_pubStashUrl)

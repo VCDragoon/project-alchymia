@@ -4,4 +4,4 @@ poe_pubStashUrl: http://www.pathofexile.com/api/public-stash-tabs?id=
 poe_searchBaseUrl: https://www.pathofexile.com/api/trade/search/
 poe_searchFetchUrl: https://www.pathofexile.com/api/trade/fetch/
 testParam: brandon has left the area again
-theme: TealMono
+theme: DarkBlue13
