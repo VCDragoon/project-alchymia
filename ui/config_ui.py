@@ -1,13 +1,13 @@
 import PySimpleGUI as sg
 import yaml
-from utilities.helpers import load_config
+from utilities.helpers import load_config, save_config
 
 def config_ui():
     cfg = load_config()
     
     layout = []
     for k, v in cfg.items():
-        layout += [sg.Text(f'{k}'), sg.Col([sg.In(f'{v}', key=k)])],
+        layout += [sg.Text(f'{k}'), sg.In(f'{v}', key=k)],
     layout += [[sg.Button('Save'), sg.Button('Exit')]]
 
     window = sg.Window('Alchymia Configuration', layout)
@@ -19,8 +19,5 @@ def config_ui():
                 break
             # ------ Process save ------ #
             if event == 'Save':
-                cfg = values
-                with open('config/config.yaml', 'w') as outfile:
-                    yaml.dump(cfg, outfile)
-                print("CFG================",cfg)
+                save_config(values)
     window.close()

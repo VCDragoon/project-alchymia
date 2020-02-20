@@ -1,6 +1,8 @@
 #TODO change over to class structure instead
 #TODO add not just for map, but for all kinds of stuff (currency, cards, etc.)
 import yaml
+import pandas as pd
+import numpy as np
 
 def map_offers_details(offer_details):
     contact_ign = offer_details["listing"]["account"]["lastCharacterName"]
@@ -27,3 +29,15 @@ def load_config():
         except yaml.YAMLError as exc:
             print(exc)
 
+def save_config(cfg):
+    with open('config/config.yaml', 'w') as outfile:
+        yaml.dump(cfg, outfile)
+
+
+def highlight_diff(data, color='yellow'):
+    attr = 'background-color: {}'.format(color)
+    other = data.xs('First', axis='columns', level=-1)
+    return pd.DataFrame(np.where(data.ne(other, level=0), attr, ''),
+                        index=data.index, columns=data.columns)
+
+                    
