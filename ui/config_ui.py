@@ -7,7 +7,7 @@ def config_ui():
     
     layout = []
     for k, v in cfg.items():
-        layout += [sg.Text(f'{k}'), sg.Col([sg.In(f'{v}', key=k)])],
+        layout += [sg.Text(f'{k}'), sg.In(f'{v}', key=k)],
     layout += [[sg.Button('Save'), sg.Button('Exit')]]
 
     window = sg.Window('Alchymia Configuration', layout)
