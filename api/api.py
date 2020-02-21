@@ -5,6 +5,7 @@ import urllib
 import aiohttp
 from asyncio_throttle import Throttler
 import nest_asyncio
+
 from utilities.helpers import map_offers_details
 nest_asyncio.apply()
 
