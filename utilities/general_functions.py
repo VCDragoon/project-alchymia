@@ -12,8 +12,8 @@ def timestamp_string() -> str:
     timestamp_str = str(datetime.now()).split(".")[0]
     for i in ["-", ":", " "]:
         timestamp_str = timestamp_str.replace(i, "_")
-    print("{}.txt".format(timestamp_str))
-    return "{}.txt".format(timestamp_str)
+    print("{}".format(timestamp_str))
+    return "{}".format(timestamp_str)
 
 
 def trim_whitespace(x):

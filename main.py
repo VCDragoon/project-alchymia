@@ -15,12 +15,15 @@ from utilities.variables import poe_pubStashUrl
 from utilities.helpers import test_me, map_offers_details, load_config
 import utilities
 
+# TODO - point the DivFlipper "View Results" to the right location - data/div_flipper
+# TODO - look at config functions & see if refactoring to own file
 # Load configuration from config/config.yaml
 
 
 # ---------------- !!!!!!!!!!!!!! ---------------- #
 # ----------------   TEST  ZONE   ---------------- #
 # ---------------- !!!!!!!!!!!!!! ---------------- #
+
 
 # ---------------- !!!!!!!!!!!!!! ---------------- #
 # ----------------   TEST  ZONE   ---------------- #

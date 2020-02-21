@@ -10,7 +10,7 @@ from analytics.div_flipper.calculations import run_flipper
 
 
 # Load configuration from config/config.yaml
-
+# TODO: remove the fnction that calls a function and just call the function
 def config_window():
 # Edit/View Configuration
     config_ui()

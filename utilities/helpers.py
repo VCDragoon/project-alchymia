@@ -29,6 +29,7 @@ def load_config():
         except yaml.YAMLError as exc:
             print(exc)
 
+# Saves configuration YAML file from local reference to config.yaml
 def save_config(cfg):
     with open('config/config.yaml', 'w') as outfile:
         yaml.dump(cfg, outfile)

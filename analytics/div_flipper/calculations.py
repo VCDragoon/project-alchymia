@@ -44,7 +44,7 @@ class APIAgent(abc.ABC):
 
     def save_data(self):
         """Saves self.data as a csv file."""
-        filename = '../data/div_flipper' + 'div-flipping-' + timestamp_string() + '.csv'
+        filename = 'data/div_flipper/' + 'div-flipping-' + timestamp_string() + '.csv'
         with open(filename, 'w', newline='') as f:
             wtr = csv.writer(f)
             wtr.writerow(self._data[0].keys())
